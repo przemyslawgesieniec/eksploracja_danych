@@ -7,6 +7,7 @@ import pl.gesieniec.ed.klasyfikacja.model.Person;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Objects;
 import java.util.function.BiFunction;
 import java.util.function.Function;
 import java.util.stream.Collectors;
@@ -17,10 +18,10 @@ public class Classification {
 
     private static final Integer K_NEAREST_NEIGHBOURS = 5;
 
-    public static void classify() {
+    public static void main(String[] args) {
 
         final List<Person> people = FileReader.readFile(CLASSIFICATION_FILE_PATH, Mappers.mapToPerson);
-        final List<Person> referencePeople = people.stream().filter(p -> p.getCreditGiven() != null).collect(Collectors.toList());
+        final List<Person> referencePeople = Objects.requireNonNull(people).stream().filter(p -> p.getCreditGiven() != null).collect(Collectors.toList());
         final List<Person> testPeople = people.stream().filter(p -> p.getCreditGiven() == null).collect(Collectors.toList());
 
         final List<Person> pointsTrue = referencePeople
@@ -96,7 +97,7 @@ public class Classification {
                 .map(calculateClassificationValue)
                 .reduce(0, (a, b) -> a + b);
 
-        return classificationValue >= 0;
+        return classificationValue > 0;
     }
 
     private static Function<DistanceWithClass,Integer> calculateClassificationValue = distanceWithClass -> {

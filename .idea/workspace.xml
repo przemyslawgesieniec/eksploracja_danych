@@ -2,59 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8e5ffa3-33d1-4546-a869-7b487d414ef8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/META-INF/pl.gesieniec.eksploracja_danych.main.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/pl/gesieniec/ed/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/pl/gesieniec/ed/common/FileReader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/pl/gesieniec/ed/common/Mappers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/pl/gesieniec/ed/klasyfikacja/Classification.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/pl/gesieniec/ed/klasyfikacja/model/Age.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/pl/gesieniec/ed/klasyfikacja/model/ContractType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/pl/gesieniec/ed/klasyfikacja/model/DistanceWithClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/pl/gesieniec/ed/klasyfikacja/model/Earnings.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/pl/gesieniec/ed/klasyfikacja/model/Education.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/pl/gesieniec/ed/klasyfikacja/model/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/pl/gesieniec/ed/klasyfikacja/model/Sex.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/pl/gesieniec/ed/klasyfikacja/model/TestPoint.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/resources/asocjacja.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/resources/klasyfikacja.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/resources/segmentacja.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/common/FileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/common/Mappers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/Classification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/model/Age.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/model/ContractType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/model/DistanceWithClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/model/Earnings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/model/Education.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/model/Sex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/model/TestPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asocjacja.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/klasyfikacja.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/segmentacja.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/asocjacja/Association.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/asocjacja/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/asocjacja/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/segmentacja/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/segmentacja/Segmentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/pl/gesieniec/ed/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/pl/gesieniec/ed/common/Mappers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/pl/gesieniec/ed/common/Mappers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/pl/gesieniec/ed/klasyfikacja/Classification.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/pl/gesieniec/ed/klasyfikacja/Classification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/common/Mappers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/common/Mappers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/Classification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/Classification.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -79,96 +41,97 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/common/Mappers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="491">
+              <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/segmentacja/Segmentation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="156" column="44" lean-forward="true" selection-start-line="156" selection-start-column="44" selection-end-line="156" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/segmentation_plotDC.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/Classification.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="82" column="74" selection-start-line="82" selection-start-column="74" selection-end-line="82" selection-end-column="74" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/segmentation_plotWC.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/model/ContractType.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/segmentacja/Point.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/model/TestPoint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+            <state relative-caret-position="292">
+              <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
               <folding>
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#474#475#0" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
-                <element signature="e#539#540#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#490#491#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#1482#1483#0" expanded="true" />
+                <element signature="e#1532#1533#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/model/DistanceWithClass.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/Classification.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="362">
+              <caret line="83" selection-start-line="83" selection-end-line="90" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/model/Age.java">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+            <state relative-caret-position="289">
+              <caret line="17" column="80" selection-start-line="17" selection-start-column="80" selection-end-line="17" selection-end-column="80" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/common/Mappers.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/asocjacja/Association.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+            <state relative-caret-position="34">
+              <caret line="45" column="36" selection-start-line="45" selection-end-line="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/common/FileReader.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/asocjacja/Cart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+            <state relative-caret-position="102">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/segmentacja.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/asocjacja.txt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/asocjacja/Item.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="66" lean-forward="true" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/klasyfikacja.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="983" column="47" selection-start-line="983" selection-start-column="47" selection-end-line="983" selection-end-column="47" />
+            <state relative-caret-position="357">
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+              <folding>
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -184,6 +147,20 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>seler</find>
+      <find>parówka</find>
+      <find>﻿parówka</find>
+      <find>sele</find>
+      <find>groszek</find>
+      <find>buraki</find>
+      <find>bagietka</find>
+      <find>drożdże</find>
+      <find>szynka</find>
+      <find>reduce</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -198,7 +175,6 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/AGE.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/common/FileReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/Main.java" />
         <option value="$PROJECT_DIR$/src/main/resources/klasyfikacja.txt" />
         <option value="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/model/Sex.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/model/Poin.java" />
@@ -207,18 +183,26 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/model/Education.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/model/Earnings.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/model/TestPoint.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/common/Mappers.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/model/DistanceWithClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/model/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/asocjacja/Segmentation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/asocjacja/Cart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/asocjacja/Item.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/Classification.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/asocjacja/Association.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/common/Mappers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/segmentacja/Point.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/segmentacja/Segmentation.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1939" />
-    <option name="height" value="1059" />
+    <option name="x" value="-1929" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -266,6 +250,15 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ed" type="462c0819:PsiDirectoryNode" />
+              <item name="asocjacja" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eksploracja_danych" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eksploracja_danych" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ed" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -284,8 +277,7 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ed" type="462c0819:PsiDirectoryNode" />
-              <item name="klasyfikacja" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="segmentacja" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eksploracja_danych" type="b2602c69:ProjectViewProjectNode" />
@@ -298,14 +290,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575270520636" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../visualvm/visualvm_142/bin/visualvm.exe" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576372294650" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ekspo_danyh/zad_1" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -323,7 +315,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Segmentation">
+    <configuration name="Association" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.gesieniec.ed.asocjacja.Association" />
+      <module name="pl.gesieniec.eksploracja_danych.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.gesieniec.ed.asocjacja.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.gesieniec.ed.Main" />
       <module name="pl.gesieniec.eksploracja_danych.main" />
@@ -337,8 +342,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Segmentation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.gesieniec.ed.segmentacja.Segmentation" />
+      <module name="pl.gesieniec.eksploracja_danych.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.gesieniec.ed.segmentacja.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Segmentation" />
+        <item itemvalue="Application.Association" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -357,10 +377,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22121535" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25476947" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -368,8 +388,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.32080537" weight="0.33144477" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932885" weight="0.39943343" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.67438865" weight="0.248104" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4986577" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -378,10 +398,10 @@
       <window_info anchor="bottom" id="Sequence" order="9" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="10" />
       <window_info anchor="bottom" id="CheckStyle" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.6791946" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.32561132" side_tool="true" weight="0.2045952" />
       <window_info anchor="bottom" id="Run with VisualVM" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.49932885" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.4986577" weight="0.32827735" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -392,15 +412,54 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25482625" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.67438865" visible="true" weight="0.2045952" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4986577" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Sequence" order="9" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="10" />
+      <window_info anchor="bottom" id="CheckStyle" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.32561132" side_tool="true" visible="true" weight="0.2045952" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.4986577" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+    </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/Classification.java</url>
-          <line>38</line>
+          <line>39</line>
           <properties />
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/segmentacja/Point.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -426,6 +485,15 @@
       </list>
     </option>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>combinations.stream().flatMap(Collection::stream).collect(Collectors.toList());</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/jre/lib/rt.jar!/java/util/Arrays.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -450,41 +518,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/model/Education.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/model/ContractType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/model/Age.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/model/TestPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding>
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/model/Education.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/model/DistanceWithClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/model/Earnings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
+        <state relative-caret-position="45">
           <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/klasyfikacja.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="53" selection-start-column="53" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/model/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="187">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="31" />
           <folding>
             <element signature="e#1088#1089#0" expanded="true" />
             <element signature="e#1115#1116#0" expanded="true" />
@@ -508,27 +602,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/common/Mappers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/segmentacja.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/asocjacja.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="66" lean-forward="true" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+          <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/klasyfikacja.txt">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/jre/lib/rt.jar!/java/util/Map.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="983" column="47" selection-start-line="983" selection-start-column="47" selection-end-line="983" selection-end-column="47" />
+        <state relative-caret-position="2790">
+          <caret line="189" column="21" selection-start-line="189" selection-start-column="21" selection-end-line="189" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -539,48 +630,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/model/Age.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/asocjacja/Cart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        <state relative-caret-position="102">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/model/ContractType.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/asocjacja/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/model/DistanceWithClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/model/TestPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        <state relative-caret-position="357">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
           <folding>
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/jre/lib/rt.jar!/java/util/stream/Stream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/segmentacja.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="89" selection-start-line="5" selection-start-column="89" selection-end-line="5" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/jre/lib/rt.jar!/java/lang/Integer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/klasyfikacja/Classification.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="82" column="74" selection-start-line="82" selection-start-column="74" selection-end-line="82" selection-end-column="74" />
+        <state relative-caret-position="362">
+          <caret line="83" selection-start-line="83" selection-end-line="90" selection-end-column="14" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/common/Mappers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/segmentacja/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+          <folding>
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#1482#1483#0" expanded="true" />
+            <element signature="e#1532#1533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="80" selection-start-line="17" selection-start-column="80" selection-end-line="17" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/segmentation_plot.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/asocjacja/Association.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="45" column="36" selection-start-line="45" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/gesieniec/ed/segmentacja/Segmentation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="156" column="44" lean-forward="true" selection-start-line="156" selection-start-column="44" selection-end-line="156" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/segmentation_plotDC.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/segmentation_plotWC.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
   <component name="masterDetails">
