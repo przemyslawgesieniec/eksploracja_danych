@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
 public class Segmentation {
 
     private static final String SEGMENTATION_FILE_PATH = "C:/studia/eksploracja_danych/src/main/resources/segmentacja.txt";
-    private static final Integer NUMBER_OF_GROUPS = 5;
+    private static final Integer NUMBER_OF_GROUPS = 10;
 
     public static void main(String[] args) throws IOException {
 
@@ -50,10 +50,10 @@ public class Segmentation {
             final Double wcFactor = calculateWcFactor(newCenters, newGroups);
             final Double dcFactor = calculateDcFactor(newGroups);
 
-            hasChanged = !newGroups.entrySet()
-                                   .stream()
-                                   .flatMap(entry -> entry.getValue().stream())
-                                   .noneMatch(Point::hasGroupChange);
+            hasChanged = newGroups.entrySet()
+                                  .stream()
+                                  .flatMap(entry -> entry.getValue().stream())
+                                  .anyMatch(Point::hasGroupChange);
 
             if (hasChanged) {
                 firstClassifiedPoints = classifyPoints(points, newCenters);
@@ -135,33 +135,25 @@ public class Segmentation {
     private static Double calculateWcFactor(final Map<Integer, Point> centers,
                                             final Map<Integer, List<Point>> groups) {
 
-        double wc = 0;
-
-        for (Map.Entry<Integer, List<Point>> entry : groups.entrySet()) {
-            Integer k = entry.getKey();
-            List<Point> v = entry.getValue();
-            for (Point point : v) {
-                final Double distance = calculateEuclideanDistance.apply(centers.get(k).getCoordinates(), point.getCoordinates());
-                wc += distance * distance;
-            }
-        }
-
-        return wc;
+        return groups.entrySet()
+                     .stream()
+                     .flatMapToDouble(e -> e.getValue()
+                                            .stream()
+                                            .map(Point::getCoordinates)
+                                            .mapToDouble(v -> calculateEuclideanDistance.apply(centers.get(e.getKey()).getCoordinates(), v))
+                     ).map(e -> e * e).sum();
     }
 
-    private static Double calculateDcFactor(Map<Integer, List<Point>> groups) {
+    private static Double calculateDcFactor(final Map<Integer, List<Point>> groups) {
 
-        double bc = 0;
-        for (Integer k : groups.keySet()) {
-            for (Point point : groups.get(k)) {
-                double sumOfCoordinates = 0;
-                for (Double coordinate : point.getCoordinates()) {
-                    sumOfCoordinates += coordinate;
-                }
-                bc += sumOfCoordinates / (double) groups.get(k).size();
-            }
-        }
-        return bc;
+        return groups.entrySet()
+                     .stream()
+                     .mapToDouble(e -> e.getValue()
+                                        .stream()
+                                        .flatMap(f -> f.getCoordinates().stream())
+                                        .mapToDouble(c -> c)
+                                        .sum() / (double) groups.get(e.getKey()).size())
+                     .sum();
     }
 
 
@@ -173,6 +165,4 @@ public class Segmentation {
         chart.addSeries("segmentation" + name, x, y);
         BitmapEncoder.saveBitmap(chart, "segmentation_plot" + name, BitmapEncoder.BitmapFormat.PNG);
     }
-
-
 }
